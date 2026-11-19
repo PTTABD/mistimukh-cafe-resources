@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="plateGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF0E6"/>
+      <stop offset="60%" stop-color="#FFE0CC"/>
+      <stop offset="100%" stop-color="#FD6E0A" stop-opacity="0.15"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#78350F" flood-opacity="0.2"/>
+    </filter>
+    <linearGradient id="terracotta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="50%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+    <linearGradient id="doiCream" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="40%" stop-color="#FEF3C7"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="rasmalaiMilk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF9C3"/>
+      <stop offset="100%" stop-color="#FCD34D"/>
+    </linearGradient>
+    <linearGradient id="coffeeCup" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3F4F6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Backdrop Circle -->
+  <circle cx="300" cy="250" r="210" fill="url(#plateGlow)" filter="url(#softShadow)"/>
+
+  <!-- Main Wooden Serving Board -->
+  <ellipse cx="300" cy="310" rx="250" ry="110" fill="#E2A066" stroke="#9A3412" stroke-width="4"/>
+  <ellipse cx="300" cy="305" rx="242" ry="104" fill="#F4BA86"/>
+  <ellipse cx="300" cy="300" rx="232" ry="98" fill="#FCD9B8"/>
+
+  <!-- Left: Earthen Pot of Bogura Shahi Doi -->
+  <g transform="translate(100, 140)">
+    <!-- Pot Shadow -->
+    <ellipse cx="70" cy="190" rx="65" ry="25" fill="#78350F" opacity="0.3"/>
+    <!-- Pot Base & Body -->
+    <path d="M 25 100 C 10 140, 20 180, 70 185 C 120 180, 130 140, 115 100 Z" fill="url(#terracotta)" stroke="#5B21B6" stroke-opacity="0.1" stroke-width="2"/>
+    <!-- Pot Rim -->
+    <ellipse cx="70" cy="100" rx="55" ry="20" fill="#9A3412"/>
+    <ellipse cx="70" cy="98" rx="50" ry="16" fill="url(#doiCream)"/>
+    <!-- Cream Top Layer Pattern (Rich Creamy Crust) -->
+    <ellipse cx="70" cy="98" rx="46" ry="14" fill="#FDE68A" opacity="0.8"/>
+    <path d="M 40 96 Q 55 92 70 97 T 100 95" stroke="#D97706" stroke-width="2.5" fill="none" opacity="0.7"/>
+    <!-- Clay Pot Texture Highlights -->
+    <path d="M 32 120 Q 30 150 55 175" stroke="#FDE68A" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+    <!-- Pistachio & Saffron sprinkles -->
+    <circle cx="62" cy="96" r="2.5" fill="#15803D"/>
+    <circle cx="78" cy="100" r="2.5" fill="#15803D"/>
+    <circle cx="72" cy="94" r="1.5" fill="#DC2626"/>
+    <circle cx="85" cy="96" r="2" fill="#B45309"/>
+
+    <!-- Floating Badge 1: Perfectly sized with generous padding -->
+    <g filter="url(#softShadow)">
+      <rect x="-10" y="196" width="160" height="34" rx="17" fill="#FD6E0A" stroke="#FFFFFF" stroke-width="2.5"/>
+      <text x="70" y="218" fill="#FFFFFF" font-family="'Open Sans', 'Segoe UI', sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">বগুড়ার শাহী দই</text>
+    </g>
+  </g>
+
+  <!-- Right: Zafrani Rasmalai Glass Bowl -->
+  <g transform="translate(360, 135)">
+    <!-- Bowl Shadow -->
+    <ellipse cx="75" cy="195" rx="60" ry="22" fill="#78350F" opacity="0.25"/>
+    <!-- Bowl Body -->
+    <path d="M 25 110 C 20 150, 40 185, 75 185 C 110 185, 130 150, 125 110 Z" fill="#FFFFFF" fill-opacity="0.88" stroke="#E5E7EB" stroke-width="3"/>
+    <!-- Saffron Milk Surface -->
+    <ellipse cx="75" cy="110" rx="52" ry="18" fill="url(#rasmalaiMilk)"/>
+    <!-- Floating Soft Rasmalai Dumplings -->
+    <circle cx="58" cy="106" r="14" fill="#FFFFFF" stroke="#FEF08A" stroke-width="2"/>
+    <circle cx="88" cy="104" r="15" fill="#FFFFFF" stroke="#FEF08A" stroke-width="2"/>
+    <circle cx="74" cy="116" r="13" fill="#FFFFFF" stroke="#FEF08A" stroke-width="2"/>
+    <!-- Garnish Pistachios & Almond slivers -->
+    <ellipse cx="58" cy="104" rx="4" ry="2" fill="#16A34A"/>
+    <ellipse cx="88" cy="102" rx="4" ry="2" fill="#16A34A"/>
+    <ellipse cx="74" cy="114" rx="4" ry="2" fill="#DC2626"/>
+    <circle cx="66" cy="110" r="1.5" fill="#B45309"/>
+    <!-- Saffron strands -->
+    <path d="M 52 108 Q 56 104 60 108" stroke="#EA580C" stroke-width="1.5" fill="none"/>
+    <path d="M 82 106 Q 86 102 90 106" stroke="#EA580C" stroke-width="1.5" fill="none"/>
+
+    <!-- Floating Badge 2: Perfectly sized with generous padding -->
+    <g filter="url(#softShadow)">
+      <rect x="-10" y="196" width="170" height="34" rx="17" fill="#FD6E0A" stroke="#FFFFFF" stroke-width="2.5"/>
+      <text x="75" y="218" fill="#FFFFFF" font-family="'Open Sans', 'Segoe UI', sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">জাফরানি রসমালাই</text>
+    </g>
+  </g>
+
+  <!-- Center-Front: Fresh Cookies & Specialty Coffee Cup -->
+  <g transform="translate(230, 240)">
+    <!-- Cup Shadow -->
+    <ellipse cx="70" cy="130" rx="45" ry="16" fill="#78350F" opacity="0.3"/>
+    <!-- Cup Body -->
+    <path d="M 38 65 L 45 118 C 47 128, 93 128, 95 118 L 102 65 Z" fill="url(#coffeeCup)" stroke="#E5E7EB" stroke-width="2"/>
+    <!-- Cup Rim -->
+    <ellipse cx="70" cy="65" rx="32" ry="12" fill="#E5E7EB"/>
+    <ellipse cx="70" cy="64" rx="30" ry="10" fill="#451A03"/>
+    <!-- Latte Art -->
+    <path d="M 64 64 C 64 59, 76 59, 76 64 C 76 68, 70 72, 70 72 C 70 72, 64 68, 64 64 Z" fill="#FEF3C7"/>
+    <!-- Cup Handle -->
+    <path d="M 100 72 C 116 75, 116 105, 98 108" stroke="#D1D5DB" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <!-- Steaming Aroma Lines -->
+    <path d="M 62 48 Q 58 38 66 30" stroke="#FD6E0A" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M 72 45 Q 76 34 70 25" stroke="#FD6E0A" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.75"/>
+    <path d="M 80 48 Q 84 38 78 30" stroke="#FD6E0A" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- Golden Butter Cookies beside cup -->
+  <g transform="translate(220, 330)">
+    <!-- Cookie 1 -->
+    <ellipse cx="35" cy="40" rx="24" ry="18" fill="#F59E0B" stroke="#B45309" stroke-width="2"/>
+    <circle cx="28" cy="36" r="2.5" fill="#78350F"/>
+    <circle cx="38" cy="33" r="2.5" fill="#78350F"/>
+    <circle cx="44" cy="42" r="2.5" fill="#78350F"/>
+    <circle cx="32" cy="45" r="2.5" fill="#78350F"/>
+
+    <!-- Cookie 2 (Overlapping) -->
+    <ellipse cx="65" cy="48" rx="22" ry="16" fill="#FBBF24" stroke="#D97706" stroke-width="2"/>
+    <circle cx="58" cy="46" r="2" fill="#78350F"/>
+    <circle cx="68" cy="44" r="2" fill="#78350F"/>
+    <circle cx="72" cy="52" r="2" fill="#78350F"/>
+  </g>
+
+  <!-- Floating Badge 3: Top Right Quality Guarantee (Spacious, beautifully proportioned) -->
+  <g transform="translate(365, 100)" filter="url(#softShadow)">
+    <rect width="215" height="42" rx="21" fill="#FFFFFF" stroke="#FD6E0A" stroke-width="1.8"/>
+    <!-- Icon Circle -->
+    <circle cx="25" cy="21" r="14" fill="#FFE8DC"/>
+    <!-- Checkmark icon -->
+    <path d="M 19 21 L 23 25 L 31 16" stroke="#FD6E0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Quality Text with ample breathing room -->
+    <text x="122" y="26" fill="#181818" font-family="'Open Sans', 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">১০০% নির্ভেজাল স্বাদ</text>
+  </g>
+</svg>

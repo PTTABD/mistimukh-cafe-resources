@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 280" width="60" height="280">
+  <defs>
+    <style>
+      .v-text1 {
+        font-family: 'Open Sans', 'Segoe UI', -apple-system, sans-serif;
+        font-size: 15px;
+        font-weight: 800;
+        letter-spacing: 7px;
+        fill: #FD6E0A;
+        opacity: 0.18;
+        text-anchor: middle;
+        dominant-baseline: central;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <g transform="translate(30, 140) rotate(-90)">
+    <text class="v-text1" x="0" y="0">MISTIMUKH CAFE</text>
+  </g>
+</svg>

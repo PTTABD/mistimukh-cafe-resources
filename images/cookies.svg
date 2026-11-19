@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="100%" height="100%">
+  <ellipse cx="150" cy="200" rx="90" ry="20" fill="#78350F" opacity="0.2"/>
+  <!-- Plate -->
+  <ellipse cx="150" cy="150" rx="110" ry="45" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="3"/>
+  <ellipse cx="150" cy="148" rx="95" ry="36" fill="#FDF6ED"/>
+  <!-- Cookie 1 -->
+  <ellipse cx="115" cy="140" rx="35" ry="26" fill="#F59E0B" stroke="#B45309" stroke-width="2.5"/>
+  <circle cx="105" cy="135" r="3.5" fill="#78350F"/>
+  <circle cx="120" cy="130" r="3.5" fill="#78350F"/>
+  <circle cx="128" cy="144" r="3.5" fill="#78350F"/>
+  <circle cx="110" cy="148" r="3.5" fill="#78350F"/>
+  <!-- Cookie 2 -->
+  <ellipse cx="175" cy="142" rx="34" ry="25" fill="#FBBF24" stroke="#D97706" stroke-width="2.5"/>
+  <circle cx="165" cy="138" r="3" fill="#78350F"/>
+  <circle cx="182" cy="134" r="3" fill="#78350F"/>
+  <circle cx="188" cy="146" r="3" fill="#78350F"/>
+  <circle cx="172" cy="150" r="3" fill="#78350F"/>
+  <!-- Cookie 3 (Foreground overlap) -->
+  <ellipse cx="145" cy="160" rx="32" ry="24" fill="#D97706" stroke="#9A3412" stroke-width="2.5"/>
+  <circle cx="136" cy="156" r="3" fill="#451A03"/>
+  <circle cx="152" cy="154" r="3" fill="#451A03"/>
+  <circle cx="145" cy="168" r="3" fill="#451A03"/>
+</svg>
