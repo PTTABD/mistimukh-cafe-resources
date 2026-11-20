@@ -1,10 +1,10 @@
 # MistiMukh Cafe & Artisan Bakery - Student Starter Pack
 
 <p align="center">
-  <img src="./cafe-full-design.png" alt="MistiMukh Cafe Full Design Preview" width="100%">
+  <img src="https://raw.githubusercontent.com/PTTABD/mistimukh-cafe-resources/refs/heads/main/cafe-full-design.png" alt="MistiMukh Cafe Full Design Preview" width="100%">
 </p>
 
-> **কোর্স:** ফুল স্ট্যাক ওয়েব ডেভেলপমেন্ট উইথ জাভাস্ক্রিপ্ট অ্যান্ড পাইথন  
+> **কোর্স:** ফুল স্ট্যাক ওয়েব ডেভেলপমেন্ট  
 > **প্রতিষ্ঠান:** পাইওনিয়ার টেকনিক্যাল ট্রেনিং একাডেমি  
 > **মাইলস্টোন ০১ (ক্যাপস্টোন প্রজেক্ট):** মিষ্টিমুখ ক্যাফে অ্যান্ড ক্রাফট বেকারি ওয়েবসাইট  
 > **লিড ইন্সট্রাক্টর:** জাহিদ হোসেন  
@@ -15,7 +15,7 @@
 
 অভিনন্দন! তোমরা সফলভাবে প্রথম ৪টি মডিউলে HTML5 Semantics, CSS Box Model, Flexbox Layout, Tables, Forms ও Media Embeds শিখেছ। 
 
-এটি তোমাদের প্রথম মাইলস্টোনের **চূড়ান্ত ক্যাপস্টোন প্রজেক্ট (Capstone Project)**। বাস্তব ক্লায়েন্ট কাজের মতো এখানে তোমাদের কোনো পূর্ব-লিখিত কোড (HTML/CSS) দেওয়া হয়নি। 
+এটি তোমাদের প্রথম মাইলস্টোনের **চূড়ান্ত প্রজেক্ট (Capstone Project)**। বাস্তব ক্লায়েন্ট কাজের মতো এখানে তোমাদের কোনো পূর্ব-লিখিত কোড (HTML/CSS) দেওয়া হয়নি। 
 তোমাদের কাজ হলো:
 1. উপরে দেওয়া `cafe-full-design.png` মকআপ ডিজাইনটি খুঁটিয়ে লক্ষ্য করা।
 2. `images/` ফোল্ডারে থাকা খাদ্য ও ব্র্যান্ড অ্যাসেটগুলো ব্যবহার করা।
